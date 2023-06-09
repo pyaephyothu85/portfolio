@@ -1,0 +1,291 @@
+
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: aqua !important;
+
+    }
+}
+body {
+    font-family: monospace;
+    background-color: aqua !important;
+}
+#mainNav {
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.nabar-brand {
+    font-size: large;
+    color: aliceblue;
+    padding: 1rem;
+    margin: 0;
+}
+
+.svg-inline {
+    overflow: visible;
+    box-sizing: content-box;
+    display: var()
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+
+nav a {
+    color: white !important;
+    font: size 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: lightseagreen !important;
+}
+
+.nabar-toggler {
+    text-transform: uppercase;
+    font-weight: bold;
+    text: white;
+
+}
+
+
+
+.masthead {
+
+    width: 15rem;
+    margin-bottom: 3rem !important;
+    vertical-align: middle;
+    overflow: clip;
+    vertical-align: middle;
+    color: aqua;
+    text: white;
+    text-align: center;
+
+
+}
+
+.masthead-heading {
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-bottom: 0;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.masthead-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.divider-custom-line {
+    background-color: darkslategray;
+    margin-right: 1rem;
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+    box-sizing: border-box;
+
+
+}
+
+.svg-inline {
+    width: 20px;
+    height: 20px;
+
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+
+
+}
+
+
+#portfolio {
+    text-align: center;
+    background-color: white;
+
+
+}
+
+
+
+
+.row {
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+   
+
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+
+}
+
+.portfoliio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img-fluid {
+   display: var();
+    font-size: 5em;
+    height: 5em;
+    overflow: visible;
+    box-sizing: content-box;
+    justify-content: flex-start;
+    margin: center;
+    clear: left;
+    border-radius: 20px;
+    padding-left: 20px;
+   
+}
+
+.li {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#about {
+    background-color: aqua;
+    text-align: center;
+}
+
+.page-section-heading {
+    text-transform: uppercase;
+    color: darkslategray;
+    margin-bottom: 0;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    text-align: center;
+    padding: 20px;
+    float: calc(center);
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    float: left;
+    color: white;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    box-sizing: border-box;
+}
+
+#contact {
+    background-color: white;
+
+}
+
+.footer {
+    text-align: center !important;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+    justify-content: space-between;
+}
+
+h4 {
+    text-transform: uppercase !important;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+.col-lg-4 {
+    float: left;
+    justify-content: space-between;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: green !important;
+    text-decoration: underline;
+}
